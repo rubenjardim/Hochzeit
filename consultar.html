@@ -22,14 +22,10 @@
 	<![endif]-->
 
 	<script src="js/admin/jquery-1.5.2.min.js"></script>
-	<script src="js/admin/jquery.tablesorter.min.js"></script>
-	<script src="js/admin/jquery.equalHeight.js"></script>
 
 	<script type="text/javascript">
 	
 		$(document).ready(function() {
-
-			$(".tablesorter").tablesorter(); 
 	
 			$(".tab_content").hide(); //Hide all content
 			$("ul.tabs li:first").addClass("active").show(); //Activate first tab
@@ -51,12 +47,6 @@
 
     </script>
 
-    <script type="text/javascript">
-    $(function(){
-        $('.column').equalHeight();
-    });
-	</script>
-
 </head>
 
 
@@ -70,17 +60,16 @@
 	</header> <!-- end of header bar -->
 	
 	
-	<aside id="sidebar" class="column">
+	<aside id="sidebar">
 		<h3>Cadastrar Local</h3>
 		<ul class="toggle">
-			<li class="icn_new_article"><a href="incluir.html">Incluir</a></li>
-			<!-- <li class="icn_edit_article"><a href="editar.html">Editar</a></li> -->
-			<li class="icn_categories"><a href="listar.html">Listar</a></li>
 			<li class="icn_folder"><a href="consultar.html">Consultar</a></li>
+			<li class="icn_categories"><a href="listar.html">Listar</a></li>
+			<li class="icn_new_article"><a href="incluir.html">Incluir</a></li>
 		</ul>
 	</aside><!-- end of sidebar -->
 	
-	<section id="main" class="column">
+	<section id="main">
 		
 		<!-- 		
 		<h4 class="alert_success">Cadastrado feito com sucesso!</h4>
@@ -88,7 +77,7 @@
 		-->
 		
 		<article class="module width_full">
-			<header><h3>Incluir</h3></header>
+			<header><h3>Consulta</h3></header>
 				<div class="module_content">
 				
 						<fieldset style="width:63%; float:left; margin-right: 3%;">
