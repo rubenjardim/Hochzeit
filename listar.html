@@ -30,7 +30,7 @@
 			
 			$(".tabela-listagem").tablesorter();
 
-			$(".bt-deletar").click(function(e) {
+			$(".bt-deletar").click(function() {
 				
 				var resposta = confirm("Esse item será removido permanentemente. Você quer mesmo deletar?");
 				
@@ -41,6 +41,10 @@
 					//não exclui
 				}
 
+			});
+
+			$(".bt-editar").click(function() {
+				window.location = "editar.html";
 			});
 
 		});
@@ -70,8 +74,6 @@
 	</aside><!-- end of sidebar -->
 	
 	<section id="main">
-		
-		<!-- <h4 class="alert_info">Bem-vindo ao Hochzeit! O melhor sistema de administração de casamentos do mundo!</h4> -->
 				
 		<article class="module width_full">
 			
@@ -102,7 +104,7 @@
 						<td>Rio de Janeiro</td> 
 						<td>Casa de Festa</td> 
 						<td>
-							<input type="image" src="img/admin/icn_edit.png" title="Editar">
+							<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
 							<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
 						</td> 
 					</tr> 
@@ -114,7 +116,7 @@
 						<td>Rio de Janeiro</td> 
 						<td>Casa de Festa</td> 
 						<td>
-							<input type="image" src="img/admin/icn_edit.png" title="Editar">
+							<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
 							<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
 						</td> 
 					</tr>
@@ -126,7 +128,7 @@
 						<td>Rio de Janeiro</td> 
 						<td>Igreja</td> 
 						<td>
-							<input type="image" src="img/admin/icn_edit.png" title="Editar">
+							<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
 							<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
 						</td> 
 					</tr> 
@@ -138,7 +140,7 @@
 						<td>Rio de Janeiro</td> 
 						<td>Casa de Festa</td> 
 						<td>
-							<input type="image" src="img/admin/icn_edit.png" title="Editar">
+							<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
 							<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
 						</td> 
 					</tr>
@@ -150,7 +152,7 @@
 						<td>Rio de Janeiro</td> 
 						<td>Igreja</td> 
 						<td>
-							<input type="image" src="img/admin/icn_edit.png" title="Editar">
+							<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
 							<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
 						</td> 
 					</tr>  
