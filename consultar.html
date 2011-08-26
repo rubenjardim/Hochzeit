@@ -28,99 +28,101 @@
 <body>
 	
 	<aside id="sidebar">
-	    
-	    <div id="sugestao">
-	           <img src="img/sugestao.png" alt="" />
-        </div>
         
-        <div id="logo">
-            <a href="#"><img src="img/logo-admin.png" alt="" /></a>
-        </div>
+        <header id="logo">
+            <img src="img/logo-admin.png" alt="Hochzeit" />
+        </header>
 	    
 	    <section id="menu">
 	        
 	        <h3>Cadastrar Local</h3>
             
             <ul>
-                <li class="icn_folder"><a href="consultar.html">Consultar</a></li>
-                <li class="icn_categories"><a href="listar.html">Listar</a></li>
-                <li class="icn_new_article"><a href="incluir.html">Incluir</a></li>
+                <li class="icone-consultar"><a href="consultar.html">Consultar</a></li>
+                <li class="icone-listar"><a href="listar.html">Listar</a></li>
+                <li class="icone-incluir"><a href="incluir.html">Incluir</a></li>
             </ul>
 	        
 	    </section>
-	    
 		
-	</aside><!-- end of sidebar -->
+	</aside>
 	
-	<section id="main">
+	<section id="container">
 		
-		<!-- 		
-		<h4 class="alert_success">Cadastrado feito com sucesso!</h4>
-		<h4 class="alert_error">Preencha os campos do formulário corretamente.</h4>
-		-->
-		
-		<article class="module width_full">
-			<header><h3>Consulta</h3></header>
-				<div class="module_content">
+		<article class="conteudo">
+			
+			<header>
+			    <h3>Consultar</h3>
+		    </header>
 				
-						<fieldset style="width:63%; float:left; margin-right: 3%;">
-							<label>Nome</label>
-							<input type="text">
-						</fieldset>
+			<form>
+				
+                <div class="form-conteudo">
+    			
+					<fieldset style="width:63%; float:left; margin-right: 3%;">
+						<label>Nome</label>
+						<input type="text">
+					</fieldset>
 
-						<fieldset style="width:29%; float:left;">
-							<label>Ambiente</label>
-							<select>
-								<option>Casa de festas</option>
-								<option>Igreja</option>
-							</select>
-						</fieldset>
+					<fieldset style="width:29%; float:left;">
+						<label>Ambiente</label>
+						<select>
+							<option>Casa de festas</option>
+							<option>Igreja</option>
+						</select>
+					</fieldset>
 
-						<fieldset style="width:63%; float:left; margin-right: 3%;">
-							<label>Rua</label>
-							<input type="text">
-						</fieldset>
+					<fieldset style="width:63%; float:left; margin-right: 3%;">
+						<label>Rua</label>
+						<input type="text">
+					</fieldset>
 
-						<fieldset style="width:29%; float:left;">
-							<label>CEP</label>
-							<input type="text">
-						</fieldset>
+					<fieldset style="width:29%; float:left;">
+						<label>CEP</label>
+						<input type="text">
+					</fieldset>
 
-						<fieldset style="width:29%; float:left; margin-right: 3%;">
-							<label>Bairro</label>
-							<select>
-								<option>Copacabana</option>
-								<option>Ipanema</option>
-								<option>Leblon</option>
-							</select>
-						</fieldset>
+					<fieldset style="width:29%; float:left; margin-right: 3%;">
+						<label>Bairro</label>
+						<select>
+							<option>Copacabana</option>
+							<option>Ipanema</option>
+							<option>Leblon</option>
+						</select>
+					</fieldset>
 
-						<fieldset style="width:29%; float:left; margin-right: 3%;">
-							<label>Cidade</label>
-							<select>
-								<option>Rio de Janeiro</option>
-								<option>São Paulo</option>
-								<option>Belo Horizonte</option>
-							</select>
-						</fieldset>
+					<fieldset style="width:29%; float:left; margin-right: 3%;">
+						<label>Cidade</label>
+						<select>
+							<option>Rio de Janeiro</option>
+							<option>São Paulo</option>
+							<option>Belo Horizonte</option>
+						</select>
+					</fieldset>
 
-						<fieldset style="width:29%; float:left;">
-							<label>Estado</label>
-							<select>
-								<option>Minas Gerais</option>
-								<option>São Paulo</option>
-								<option>Rio de Janeiro</option>
-							</select>
-						</fieldset>
+					<fieldset style="width:29%; float:left;">
+						<label>Estado</label>
+						<select>
+							<option>Minas Gerais</option>
+							<option>São Paulo</option>
+							<option>Rio de Janeiro</option>
+						</select>
+					</fieldset>
 
-						<div class="clear"></div>
-
-				</div>
-			<footer>
-				<div class="submit_link">
-					<input type="submit" value="Consultar">
-				</div>
-			</footer>
+					<div class="clear"></div>
+    
+    			</div>
+    				
+    			<footer>
+    				<div class="submit-link">
+    					<input type="submit" value="Consultar">
+    				</div>
+    			</footer>
+			
+			</form>
+			
+			<div class="clear"></div>
+			
 		</article>
 		
 	</section>

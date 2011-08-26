@@ -56,113 +56,119 @@
 
 <body>
 
-	<header id="header">
-		<hgroup>
-			<h1 class="site_title"><a href="index.html"><img src="img/logo-horizontal.png" alt="Logo" /></a></h1>
-			<h2 class="section_title">Listagem</h2><div class="btn_view_site"></div>
-		</hgroup>
-	</header> <!-- end of header bar -->
-	
-	
 	<aside id="sidebar">
-		<h3>Cadastrar Local</h3>
-		<ul>
-			<li class="icn_folder"><a href="consultar.html">Consultar</a></li>
-			<li class="icn_categories"><a href="listar.html">Listar</a></li>
-			<li class="icn_new_article"><a href="incluir.html">Incluir</a></li>
-		</ul>
-	</aside><!-- end of sidebar -->
+        
+        <header id="logo">
+            <img src="img/logo-admin.png" alt="Hochzeit" />
+        </header>
+        
+        <section id="menu">
+            
+            <h3>Cadastrar Local</h3>
+            
+            <ul>
+                <li class="icone-consultar"><a href="consultar.html">Consultar</a></li>
+                <li class="icone-listar"><a href="listar.html">Listar</a></li>
+                <li class="icone-incluir"><a href="incluir.html">Incluir</a></li>
+            </ul>
+            
+        </section>
+        
+    </aside>
 	
-	<section id="main">
+	<section id="container">
 				
-		<article class="module width_full">
+		<article class="conteudo">
 			
 			<header>
-				<h3 class="tabs_involved">Listar</h3>
+				<h3>Listar</h3>
 			</header>
 
-			<div class="tab_container">
-				<div id="tab1">
-				<table class="tabela-listagem" cellspacing="0"> 
-				<thead> 
-					<tr> 
-						<th>Nome</th> 
-						<th>Rua</th> 
-						<th>Bairro</th>
-						<th>Cidade</th>
-						<th>Estado</th>
-						<th>Ambiente</th>
-						<th>Ação</th> 
-					</tr> 
-				</thead> 
-				<tbody> 
-					<tr> 
-						<td>Casa de Festa Alpha</td> 
-						<td>Rua Blá Blá Blá, 76</td> 
-						<td>Copacabana</td> 
-						<td>Rio de Janeiro</td> 
-						<td>Rio de Janeiro</td> 
-						<td>Casa de Festa</td> 
-						<td>
-							<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
-							<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
-						</td> 
-					</tr> 
-					<tr> 
-						<td>Casa de Festa Gama</td> 
-						<td>Rua Blá Blá Blá, 1579</td> 
-						<td>Ipanema</td> 
-						<td>Rio de Janeiro</td> 
-						<td>Rio de Janeiro</td> 
-						<td>Casa de Festa</td> 
-						<td>
-							<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
-							<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
-						</td> 
-					</tr>
-					<tr> 
-						<td>Igreja Beta</td> 
-						<td>Av Blá Blá Blá, 92</td> 
-						<td>Leblon</td> 
-						<td>Rio de Janeiro</td> 
-						<td>Rio de Janeiro</td> 
-						<td>Igreja</td> 
-						<td>
-							<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
-							<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
-						</td> 
-					</tr> 
-					<tr> 
-						<td>Casa de Festa Delta</td> 
-						<td>Av Blá Blá Blá, 33</td> 
-						<td>Centro</td> 
-						<td>Rio de Janeiro</td> 
-						<td>Rio de Janeiro</td> 
-						<td>Casa de Festa</td> 
-						<td>
-							<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
-							<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
-						</td> 
-					</tr>
-					<tr> 
-						<td>Igreja Lambda</td> 
-						<td>Av Blá Blá Blá, 579</td> 
-						<td>Leme</td> 
-						<td>Rio de Janeiro</td> 
-						<td>Rio de Janeiro</td> 
-						<td>Igreja</td> 
-						<td>
-							<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
-							<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
-						</td> 
-					</tr>  
-				</tbody> 
-				</table>
-				</div>
+			<table class="tabela-listagem" cellspacing="0"> 
+			<thead> 
+				<tr> 
+					<th>Nome</th> 
+					<th>Rua</th> 
+					<th>Bairro</th>
+					<th>Cidade</th>
+					<th>Estado</th>
+					<th>Ambiente</th>
+					<th>Ação</th> 
+				</tr> 
+			</thead> 
+			<tbody> 
+				<tr> 
+					<td>Casa de Festa Alpha</td> 
+					<td>Rua Blá Blá Blá, 76</td> 
+					<td>Copacabana</td> 
+					<td>Rio de Janeiro</td> 
+					<td>Rio de Janeiro</td> 
+					<td>Casa de Festa</td> 
+					<td>
+						<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
+						<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
+					</td> 
+				</tr> 
+				<tr> 
+					<td>Casa de Festa Gama</td> 
+					<td>Rua Blá Blá Blá, 1579</td> 
+					<td>Ipanema</td> 
+					<td>Rio de Janeiro</td> 
+					<td>Rio de Janeiro</td> 
+					<td>Casa de Festa</td> 
+					<td>
+						<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
+						<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
+					</td> 
+				</tr>
+				<tr> 
+					<td>Igreja Beta</td> 
+					<td>Av Blá Blá Blá, 92</td> 
+					<td>Leblon</td> 
+					<td>Rio de Janeiro</td> 
+					<td>Rio de Janeiro</td> 
+					<td>Igreja</td> 
+					<td>
+						<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
+						<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
+					</td> 
+				</tr> 
+				<tr> 
+					<td>Casa de Festa Delta</td> 
+					<td>Av Blá Blá Blá, 33</td> 
+					<td>Centro</td> 
+					<td>Rio de Janeiro</td> 
+					<td>Rio de Janeiro</td> 
+					<td>Casa de Festa</td> 
+					<td>
+						<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
+						<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
+					</td> 
+				</tr>
+				<tr> 
+					<td>Igreja Lambda</td> 
+					<td>Av Blá Blá Blá, 579</td> 
+					<td>Leme</td> 
+					<td>Rio de Janeiro</td> 
+					<td>Rio de Janeiro</td> 
+					<td>Igreja</td> 
+					<td>
+						<input class="bt-editar" type="image" src="img/admin/icn_edit.png" title="Editar">
+						<input class="bt-deletar" type="image" src="img/admin/icn_trash.png" title="Deletar">
+					</td> 
+				</tr>  
+			</tbody> 
+			</table>
 			
-			</div>
+			<footer>
+                <div class="submit-link">
+                    <input type="button" value="Incluir">
+                </div>
+            </footer>
 		
 		</article>
+		
+		
 		
 	</section>
 

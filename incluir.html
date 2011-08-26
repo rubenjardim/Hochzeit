@@ -61,90 +61,97 @@
 
 <body>
 
-	<header id="header">
-		<hgroup>
-			<h1 class="site_title"><a href="index.html"><img src="img/logo-horizontal.png" alt="Logo" /></a></h1>
-			<h2 class="section_title">Inclusão</h2><div class="btn_view_site"></div>
-		</hgroup>
-	</header> <!-- end of header bar -->
-	
-	
 	<aside id="sidebar">
-		<h3>Cadastrar Local</h3>
-		<ul class="toggle">
-			<li class="icn_folder"><a href="consultar.html">Consultar</a></li>
-			<li class="icn_categories"><a href="listar.html">Listar</a></li>
-			<li class="icn_new_article"><a href="incluir.html">Incluir</a></li>
-		</ul>
-	</aside>
+        
+        <header id="logo">
+            <img src="img/logo-admin.png" alt="Hochzeit" />
+        </header>
+        
+        <section id="menu">
+            
+            <h3>Cadastrar Local</h3>
+            
+            <ul>
+                <li class="icone-consultar"><a href="consultar.html">Consultar</a></li>
+                <li class="icone-listar"><a href="listar.html">Listar</a></li>
+                <li class="icone-incluir"><a href="incluir.html">Incluir</a></li>
+            </ul>
+            
+        </section>
+        
+    </aside>
 	
-	<section id="main">
+	<section id="container">
 		
 		<h4 class="alerta-erro">Preencha todos campos do formulário.</h4>
 		<h4 class="alerta-sucesso">Cadastrado feito com sucesso!</h4>
 		
-		<article class="module width_full">
+		<article class="conteudo">
 
 			<form>
 
-			<header><h3>Incluir</h3></header>
-				<div class="module_content">
+    			<header>
+    			    <h3>Incluir</h3>
+    		    </header>
+		    
+				<div class="form-conteudo">
 
-						<fieldset style="width:63%; float:left; margin-right: 3%;">
-							<label>Nome <span class="campo-obrigatorio">*</span></label>
-							<input type="text">
-						</fieldset>
+					<fieldset style="width:63%; float:left; margin-right: 3%;">
+						<label>Nome <span class="campo-obrigatorio">*</span></label>
+						<input type="text">
+					</fieldset>
 
-						<fieldset style="width:29%; float:left;">
-							<label>Ambiente <span class="campo-obrigatorio">*</span></label>
-							<span id="lista-checkbox">							
-								<input type="radio" name="ambiente" checked="checked">Casa de Festas
-								<input type="radio" name="ambiente">Igreja
-							</span>
-						</fieldset>
+					<fieldset style="width:29%; float:left;">
+						<label>Ambiente <span class="campo-obrigatorio">*</span></label>
+						<span id="lista-checkbox">							
+							<input type="radio" name="ambiente" checked="checked">Casa de Festas
+							<input type="radio" name="ambiente">Igreja
+						</span>
+					</fieldset>
 
-						<fieldset style="width:63%; float:left; margin-right: 3%;">
-							<label>Rua <span class="campo-obrigatorio">*</span></label>
-							<input type="text">
-						</fieldset>
+					<fieldset style="width:63%; float:left; margin-right: 3%;">
+						<label>Rua <span class="campo-obrigatorio">*</span></label>
+						<input type="text">
+					</fieldset>
 
-						<fieldset style="width:29%; float:left;">
-							<label>CEP <span class="campo-obrigatorio">*</span></label>
-							<input type="text">
-						</fieldset>
+					<fieldset style="width:29%; float:left;">
+						<label>CEP <span class="campo-obrigatorio">*</span></label>
+						<input type="text">
+					</fieldset>
 
-						<fieldset style="width:29%; float:left; margin-right: 3%;">
-							<label>Bairro <span class="campo-obrigatorio">*</span></label>
-							<select>
-								<option>Copacabana</option>
-								<option>Ipanema</option>
-								<option>Leblon</option>
-							</select>
-						</fieldset>
+					<fieldset style="width:29%; float:left; margin-right: 3%;">
+						<label>Bairro <span class="campo-obrigatorio">*</span></label>
+						<select>
+							<option>Copacabana</option>
+							<option>Ipanema</option>
+							<option>Leblon</option>
+						</select>
+					</fieldset>
 
-						<fieldset style="width:29%; float:left; margin-right: 3%;">
-							<label>Cidade <span class="campo-obrigatorio">*</span></label>
-							<select>
-								<option>Rio de Janeiro</option>
-								<option>São Paulo</option>
-								<option>Belo Horizonte</option>
-							</select>
-						</fieldset>
+					<fieldset style="width:29%; float:left; margin-right: 3%;">
+						<label>Cidade <span class="campo-obrigatorio">*</span></label>
+						<select>
+							<option>Rio de Janeiro</option>
+							<option>São Paulo</option>
+							<option>Belo Horizonte</option>
+						</select>
+					</fieldset>
 
-						<fieldset style="width:29%; float:left;">
-							<label>Estado <span class="campo-obrigatorio">*</span></label>
-							<select>
-								<option>Minas Gerais</option>
-								<option>São Paulo</option>
-								<option>Rio de Janeiro</option>
-							</select>
-						</fieldset>
+					<fieldset style="width:29%; float:left;">
+						<label>Estado <span class="campo-obrigatorio">*</span></label>
+						<select>
+							<option>Minas Gerais</option>
+							<option>São Paulo</option>
+							<option>Rio de Janeiro</option>
+						</select>
+					</fieldset>
 
-						<div class="clear"></div>
+					<div class="clear"></div>
 
-				</div>
+			</div>
+				
 			<footer>
-				<div class="submit_link">
+				<div class="submit-link">
 					<input type="submit" value="Incluir">
 				</div>
 			</footer>
@@ -152,8 +159,6 @@
 			</form>
 
 		</article>
-		
-		<div class="spacer"></div>
 		
 	</section>
 
