@@ -39,13 +39,16 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 #sidebar {
     width: 300px;
-    background: #E0E0E3 url(../img/admin/sidebar.png) repeat;
+    background: #e7e7ea url(../img/sombra-sidebar.png) repeat-y 295px 0;
     float: left;
     height: 100%;
+    position: relative;
+    z-index: 3;
 }
 
 /* --- Sidebar Menu --- */
@@ -126,8 +129,6 @@ a:hover {
 
 
 #container {
-    /*height: 100%;*/
-    background: url(../img/admin/sidebar_shadow.png) repeat-y left top;
     padding: 20px 0 0 300px;
     height: 95%;
 }
@@ -162,7 +163,7 @@ margin: 8px 20px;
 .conteudo header {
     height: 38px;
     width: 100%;
-    background: #F1F1F4 url(../img/admin/secondary_bar.png) repeat-x;
+    background: #F1F1F4 url(../img/header-conteudo.png) repeat-x;
     -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px;
     border-top-left-radius: 5px; border-top-right-radius: 5px;
@@ -172,7 +173,7 @@ margin: 8px 20px;
     height: 32px;
     width: 100%;
     border-top: 1px solid #9CA1B0;
-    background: #F1F1F4 url(../img/admin/module_footer_bg.png) repeat-x;
+    background: #F1F1F4 url(../img/footer-conteudo.png) repeat-x;
     -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px;
     -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px;
     -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px;
@@ -198,7 +199,7 @@ border-bottom: 1px dotted #ccc;
 
 .tabela-listagem thead tr {
 height: 34px;
-background: url(../img/admin/table_sorter_header.png) repeat-x;
+background: url(../img/tabela-header.png) repeat-x;
 text-align: left;
 text-indent: 10px;
 cursor: pointer;
@@ -214,7 +215,7 @@ margin-right: 10px;}0
 /* --- Formulário --- */
 
 input[type=submit] {
-    background: #D0D1D4 url(../img/admin/btn_submit.png) repeat-x;
+    background: #D0D1D4;
     border: 1px solid #A8A9A8;
     -webkit-box-shadow: 0 1px 0 #fff;
     -moz-box-shadow: 0 1px 0 #fff;
@@ -274,11 +275,12 @@ fieldset input[type=text] {
 	-webkit-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;
 	-moz-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;
 	box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;
-	/*padding-left: 10px;*/
+	padding: 0 5px;
+	margin: 0 5px;
 	background-position: 10px 6px;
 	display: block;
 	float: left;
-	width: 100%;
+	width: 96%;
 }
 
 fieldset input[type=text]:focus {
@@ -370,12 +372,11 @@ fieldset textarea:focus {
 .alerta-erro {
 	display: none;
 	width: 95%;
-	margin: 20px 3% 0 3%;
-	margin-top: 20px;
+	margin: 0 3% 20px 3%;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	background: #F3D9D9 url(../img/admin/icn_alert_error.png) no-repeat;
+	background: #F3D9D9 url(../img/icone-alerta-erro.png) no-repeat;
 	background-position: 10px 10px;
 	border: 1px solid #D20009;
 	color: #7B040F;
@@ -387,12 +388,11 @@ fieldset textarea:focus {
 .alerta-sucesso {
 	display: none;
 	width: 95%;
-	margin: 20px 3% 20px 3%;
-	margin-top: 20px;
+	margin: 0 3% 20px 3%;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	background: #E2F6C5 url(../img/admin/icn_alert_success.png) no-repeat;
+	background: #E2F6C5 url(../img/icone-alerta-sucesso.png) no-repeat;
 	background-position: 10px 10px;
 	border: 1px solid #79C20D;
 	color: #32510F;
