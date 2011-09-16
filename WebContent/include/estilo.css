@@ -1,0 +1,165 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: medium;
+	background-color: rgb(0, 105, 163);
+	text-align: center
+}
+
+p,body {
+	color: #000
+}
+
+img {
+	border: 0;
+}
+
+.hide {
+	display: none
+}
+
+.form {
+	background-image: url(' common/ bgform1.gif);
+}
+
+.form2 {
+	background-image: url(' common/ bgform2.jpg);
+}
+
+.form,.form2 {
+	border: #90bc8b 1px solid;
+	background-repeat: repeat-x
+}
+
+img.logo {
+	width: 63px;
+	height: 55px;
+}
+img.vendedor {
+	width : 98px;
+	height : 147px;
+}
+img.cliente {
+	width : 98px;
+	height : 147px;
+}
+#container {
+	border: 3px solid #000;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: left top;
+	width: 1024px;
+	text-align: left
+}
+
+#banner {
+	border-bottom: #000 2px solid;
+	height: 57px;
+}
+
+#content {
+	background-color: #ffffff;
+	background-position: 50% bottom;
+	background-repeat: no-repeat;
+	font-size: 0.8em;
+	line-height: 150%;
+	margin-left: 150px;
+	padding: 10px 85px 0 20px;
+	width: 470px;
+}
+#content input {
+	border: 1px solid black;
+}
+
+#menu li {
+	color: #fff;
+	list-style-type: square
+}
+
+h1,h2,h3 {
+	font-weight: normal;
+	color: #993366;
+	font-size: 14pt;
+	color: #006699;
+	font-family: arial, helvetica, sans-serif;
+	letter-spacing: 3px
+}
+
+h1#title {
+	display: inline;
+	margin-left: 10px;
+}
+
+a.option {
+	font-size: 1em;
+	color: #3d639c;
+	text-decoration: none;
+}
+
+a.option:hover {
+	border-bottom: 1px solid black;
+}
+
+#sidebar-a {
+	padding: 20px 0 0 0;
+	float: left;
+	margin-left: 0px;
+	width: 150px;
+	background-color: #fff
+}
+
+#menu {
+	display: block;
+	width: 120px;
+	margin-left: 5px;
+}
+
+#menu a {
+	font-family: verdana, arial, sans-serif;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: rgb(0, 105, 163);
+	line-height: 180%;
+	text-decoration: none;
+}
+
+#menu a:hover,#menu a.active {
+	color: rgb(161, 210, 251);
+	border-bottom: #999966 1px dotted
+}
+
+#menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+#menu li {
+	background-image: url('common/bglih.png');
+	background-repeat: repeat-x;
+	margin-bottom: 3px;
+	list-style-type: none
+}
+
+#menu li:hover {
+	background-image: url('common/bgli.png');
+	background-repeat: repeat-x
+}
+
+#footer {
+	padding: 10px 0 10px 0;
+	font-family: verdana, arial, sans-serif;
+	clear: both;
+	margin-top: 15px;
+	color: #000;
+	background-repeat: repeat-x;
+	background-color: white;
+	text-align: center
+}
+
+#footer address {
+	font-size: 0.7em;
+	color: #000;
+	font-style: normal
+}
